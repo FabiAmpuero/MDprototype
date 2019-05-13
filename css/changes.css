@@ -1,0 +1,29 @@
+#demo-canvas {
+	z-index: 10000;
+}
+
+.bg-img {
+	z-index: -1 !important;
+}
+
+#header {
+	background: #393b4e75;
+}
+
+.codrops-top #logo-top {
+	width: 275px;
+}
+
+.header-color {
+	background: #393b4e75 !important;
+	-webkit-transition: ease-in-out background-color 3s; /* Safari */
+	transition: ease-in-out background-color 3s;
+}
+
+.header-nocolor {
+	background: none !important;
+}
+
+.fa-bars {
+	font-size: 30px;
+}
