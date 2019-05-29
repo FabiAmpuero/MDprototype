@@ -27,3 +27,42 @@
 .fa-bars {
 	font-size: 30px;
 }
+.menu-icon-box {
+	/* background: #005B93; */
+	position: absolute;
+	right: 20px;
+}
+#toggle {
+	z-index: 10000;
+	background: #005B93;
+	padding: 10px;
+}
+.overlay {
+    position: fixed;
+    background: #fff;
+    z-index: 1000000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    /* visibility: hidden; */
+    transition: opacity .35s,visibility .35s,height .35s;
+    /* overflow: hidden; */
+}
+/* ::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent; 
+} */
+
+.overlay nav {
+    position: relative;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    font-style: normal;
+    line-height: 2.5;
+    font-weight: 400;
+    text-align: center;
+}
