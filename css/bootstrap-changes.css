@@ -1,13 +1,36 @@
+
+
+
+.carousel-indicators {
+    bottom: -50px !important;
+}
 .carousel-indicators li {
     /* background-color: #6a5b5b; */
     background-color: none;
     border: 1px solid #7c7373;
     height: 10px;
+    width: 12px;
 }
 .carousel-indicators .active {
-    background: #7c7373;
+    /* background: #7c7373; */
+    background: #35b03f;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background: none;
     color: #7c7373;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 10% !important;
+}
+.carousel-control-prev {
+    left: -111px !important;
+}
+.carousel-control-next {
+    right: -111px !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400 !important;
+}
+p {
+    font-size: 17px !important;
 }
